@@ -1,0 +1,13 @@
+
+
+
+<h1>Products</h1>
+<ul>
+{% for i in response %}
+    {{i.name}}
+    {{i.description}}
+    {{i.price}}
+    {{i.image}}
+{% endfor %}
+</ul>
+
